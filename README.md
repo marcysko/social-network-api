@@ -1,7 +1,7 @@
 # social-network-api
 
 ## Licensing:
-  [![license](https://img.shields.io/badge/license-MIT-yellow)](https://shields.io)
+  [![license](https://img.shields.io/badge/license-ISC-yellow)](https://shields.io)
 
 ## Description
 Built an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
@@ -30,14 +30,13 @@ Built an API for a social network web application where users can share their th
 
 
 ### License
-MIT
+ISC
 ### Technology
 
 - CSS
 - JavaScript
 - JSON
 - Node.js
-- HTML 
 - Express.js
 - Mongoose
 - MongoDB 
