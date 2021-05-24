@@ -38,7 +38,6 @@ MIT
 - JSON
 - Node.js
 - HTML 
-- Heroku
 - Express.js
 - Mongoose
 - MongoDB 
