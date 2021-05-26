@@ -1,4 +1,4 @@
-# social-network-api
+# social-network-api  (in process)
 
 ## Licensing:
   [![license](https://img.shields.io/badge/license-ISC-yellow)](https://shields.io)
@@ -9,7 +9,7 @@ Built an API for a social network web application where users can share their th
 
 
  
-## Web Link
+##  Walkthrough Video Link
 
 
 
@@ -39,6 +39,7 @@ ISC
 - Express.js
 - Mongoose
 - MongoDB 
+- Insomnia
 
 
 
