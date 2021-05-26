@@ -9,7 +9,7 @@ Built an API for a social network web application where users can share their th
 
 
  
-## Web Link
+##  Walkthrough Video Link
 
 
 
