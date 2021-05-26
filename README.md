@@ -33,7 +33,6 @@ Built an API for a social network web application where users can share their th
 ISC
 ### Technology
 
-- CSS
 - JavaScript
 - JSON
 - Node.js
