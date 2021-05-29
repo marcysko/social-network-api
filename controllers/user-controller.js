@@ -1,7 +1,7 @@
 const { User } = require('../models');
 
 const userController = {
-  // get all Users
+  // get all Users,  /api/users
   getAllUser(req, res) {
     User.find({})
       .populate({
@@ -67,6 +67,8 @@ const userController = {
       })
       .catch(err => res.status(400).json(err));
   },
+
+    ///api/users/:userId/friends/:friendId
     //POST to add a new friend to a user's friend list
     addFriend({ params }, res){
     User.findOneAndUpdate({ _id: params.userId}, { $pull: {friends: params.friendId} }, {new: true})
@@ -80,7 +82,7 @@ const userController = {
     .catch(err => res.status(400).json(err));
 },
     //DELETE to remove a friend from a user's friend list
-    removeFriend({ params, body }, res){
+    deleteFriend({ params, body }, res){
     User.findOneAndDelete({ _id: params.thoughtId })
     .then(deletedFriend => {
         if (!deletedFriend) {
