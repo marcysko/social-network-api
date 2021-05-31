@@ -1,4 +1,4 @@
-# social-network-api  (in process)
+# social-network-api  
 
 ## Licensing:
   [![license](https://img.shields.io/badge/license-ISC-yellow)](https://shields.io)
@@ -10,7 +10,7 @@ Built an API for a social network web application where users can share their th
 
  
 ##  Walkthrough Video Link
-
+https://youtu.be/XxCiU4Zyahw
 
 
 
