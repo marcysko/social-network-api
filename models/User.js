@@ -1,4 +1,4 @@
-const { Schema, model, Types } = require('mongoose');
+const { Schema, model } = require('mongoose');
 
 const UserSchema = new Schema(
     {
@@ -25,12 +25,12 @@ const UserSchema = new Schema(
             type: Schema.Types.ObjectId,
             ref: 'User'
             }
-        ],
+        ]
     },
     {
         toJSON: {
             virtuals: true,
-            getters: true
+           
       },
       // prevents virtuals from creating duplicate of _id as `id`
       id: false
